@@ -1,0 +1,21 @@
+D:\2NetII_DA205\Module1N\Exercises\HomesForSale\obj\x86\Debug\HomeForSale.csprojResolveAssemblyReference.cache
+D:\2NetII_DA205\Module1N\Exercises\HomesForSale\obj\x86\Debug\HomeForSale.MainForm.resources
+D:\2NetII_DA205\Module1N\Exercises\HomesForSale\obj\x86\Debug\HomeForSale.csproj.GenerateResource.Cache
+D:\000.NET\2NetII_DA205\Module1N\Exercises\HomesForSale\bin\Debug\Mäklarna.exe
+D:\000.NET\2NetII_DA205\Module1N\Exercises\HomesForSale\bin\Debug\Mäklarna.pdb
+D:\000.NET\2NetII_DA205\Module1N\Exercises\HomesForSale\obj\x86\Debug\HomeForSale.csprojAssemblyReference.cache
+D:\000.NET\2NetII_DA205\Module1N\Exercises\HomesForSale\obj\x86\Debug\HomeForSale.MainForm.resources
+D:\000.NET\2NetII_DA205\Module1N\Exercises\HomesForSale\obj\x86\Debug\HomeForSale.csproj.GenerateResource.cache
+D:\000.NET\2NetII_DA205\Module1N\Exercises\HomesForSale\obj\x86\Debug\HomeForSale.csproj.CoreCompileInputs.cache
+D:\000.NET\2NetII_DA205\Module1N\Exercises\HomesForSale\obj\x86\Debug\Mäklarna.exe
+D:\000.NET\2NetII_DA205\Module1N\Exercises\HomesForSale\obj\x86\Debug\Mäklarna.pdb
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 1\Practice\HomesForSale\HomesForSale\bin\Debug\Mäklarna.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 1\Practice\HomesForSale\HomesForSale\bin\Debug\Mäklarna.exe
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 1\Practice\HomesForSale\HomesForSale\bin\Debug\Mäklarna.pdb
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 1\Practice\HomesForSale\HomesForSale\obj\x86\Debug\HomeForSale.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 1\Practice\HomesForSale\HomesForSale\obj\x86\Debug\HomeForSale.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 1\Practice\HomesForSale\HomesForSale\obj\x86\Debug\HomeForSale.MainForm.resources
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 1\Practice\HomesForSale\HomesForSale\obj\x86\Debug\HomeForSale.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 1\Practice\HomesForSale\HomesForSale\obj\x86\Debug\HomeForSale.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 1\Practice\HomesForSale\HomesForSale\obj\x86\Debug\Mäklarna.exe
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 1\Practice\HomesForSale\HomesForSale\obj\x86\Debug\Mäklarna.pdb

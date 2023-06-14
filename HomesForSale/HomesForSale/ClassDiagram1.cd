@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="HomeForSale.Estate" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Address" Type="HomeForSale.Address" FixedFromPoint="true">
+      <Path>
+        <Point X="6.25" Y="0.625" />
+        <Point X="7.75" Y="0.625" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.786" Y="-3.294" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="EstateType" Type="HomeForSale.EstateType" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="0.75" />
+        <Point X="7.417" Y="0.75" />
+        <Point X="7.417" Y="1.625" />
+        <Point X="7.75" Y="1.625" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.682" Y="-2.857" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="LegalType" Type="HomeForSale.LegalType" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.25" Y="0.875" />
+        <Point X="7.292" Y="0.875" />
+        <Point X="7.292" Y="2.281" />
+        <Point X="7.75" Y="2.281" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.796" Y="-1.2" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAADAQAAgSAAAAAEAAIAAAAAAAIIAAACCgCAACAAAgA=</HashCode>
+      <FileName>Estate.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+      <Property Name="EstateType" />
+      <Property Name="LegalType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HomeForSale.Commercial.Commercial" Collapsed="true">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commercial\Commercial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForSale.Home.Home" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Home\Home.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForSale.Home.Apartment" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgEAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Home\Apartment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForSale.Home.Rental" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Home\Rental.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForSale.Home.RowHouse" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Home\RowHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForSale.Home.Tenement" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Home\Tenement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForSale.Home.Villa" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Home\Villa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForSale.Address" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAMAAAACAAAAAAAAgAAAAMAAAAAAAA=</HashCode>
+      <FileName>Adress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForSale.EstateManager" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="Estate" Type="HomeForSale.Estate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-6.307" Y="-4.555" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAACAAAAAAAAAAAAIAAIIAAAAAAAAAAQA=</HashCode>
+      <FileName>EstateManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Estate" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HomeForSale.MainForm" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="EstateManager" Type="HomeForSale.EstateManager">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-8.807" Y="-4.138" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAACgECAAEBgEkQCAAExqAiCAggAAADEgAAAAACY=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EstateManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HomeForSale.Commercial.WareHouse" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commercial\WareHouse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeForSale.Commercial.Store" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Commercial\Store.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="HomeForSale.EstateType" Collapsed="true">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYQAAAAA=</HashCode>
+      <FileName>EstateTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="HomeForSale.LegalType" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAQACAAA=</HashCode>
+      <FileName>EstateTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
