@@ -1,0 +1,12 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\bin\Debug\APU RECIPE BOOK.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\bin\Debug\APU RECIPE BOOK.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\bin\Debug\APU RECIPE BOOK.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\obj\Debug\APU RECIPE BOOK.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\obj\Debug\APU RECIPE BOOK.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\obj\Debug\APU_RECIPE_BOOK.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\obj\Debug\APU RECIPE BOOK.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\obj\Debug\APU RECIPE BOOK.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\obj\Debug\APU RECIPE BOOK.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\obj\Debug\APU RECIPE BOOK.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\obj\Debug\APU_RECIPE_BOOK.FormIngredients.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Assignment\APU RECIPE BOOK\APU RECIPE BOOK\obj\Debug\APU_RECIPE_BOOK.formMain.resources
