@@ -1,0 +1,15 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\bin\Debug\net6.0\SumSquareOfNum.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\bin\Debug\net6.0\SumSquareOfNum.deps.json
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\bin\Debug\net6.0\SumSquareOfNum.runtimeconfig.json
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\bin\Debug\net6.0\SumSquareOfNum.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\bin\Debug\net6.0\SumSquareOfNum.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\obj\Debug\net6.0\SumSquareOfNum.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\obj\Debug\net6.0\SumSquareOfNum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\obj\Debug\net6.0\SumSquareOfNum.AssemblyInfoInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\obj\Debug\net6.0\SumSquareOfNum.AssemblyInfo.cs
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\obj\Debug\net6.0\SumSquareOfNum.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\obj\Debug\net6.0\SumSquareOfNum.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\obj\Debug\net6.0\refint\SumSquareOfNum.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\obj\Debug\net6.0\SumSquareOfNum.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\obj\Debug\net6.0\SumSquareOfNum.genruntimeconfig.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\SumSquareOfNum\SumSquareOfNum\obj\Debug\net6.0\ref\SumSquareOfNum.dll
