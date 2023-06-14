@@ -1,0 +1,11 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\bin\Debug\Exercise 3b.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\bin\Debug\Exercise 3b.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\bin\Debug\Exercise 3b.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\obj\Debug\Exercise 3b.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\obj\Debug\Exercise 3b.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\obj\Debug\Exercise_3b.MainForm.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\obj\Debug\Exercise_3b.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\obj\Debug\Exercise 3b.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\obj\Debug\Exercise 3b.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\obj\Debug\Exercise 3b.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\Exercise 3b\Exercise 3b\obj\Debug\Exercise 3b.pdb
