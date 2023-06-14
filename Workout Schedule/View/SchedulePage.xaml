@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Workout_Planner.View.SchedulePage"
+             xmlns:viewmodel="clr-namespace:Workout_Planner.View_Model"
+             x:DataType="viewmodel:ViewModelSchedule"
+             xmlns:model="clr-namespace:Workout_Planner.Model">
+
+    <Shell.TitleView>
+        <Grid>
+            <Label Text="Schedule Page" HorizontalOptions="Center" 
+                   VerticalOptions="Center" TextColor="White" FontSize="Title"/>
+        </Grid>
+    </Shell.TitleView>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <!-- Collectionview of the workout schedule and entries-->
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="2*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Collectionview Workouts for selected day -->
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" Margin="10">
+                    <Label Text="{Binding SelectedWeekdayText}" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+                </Grid>
+
+                <!-- Collectionview of the selected day´s workout(s)-->
+                <Grid Grid.Row="1">
+                    <CollectionView 
+                        SelectionMode="Single"
+                        SelectedItem="{Binding SelectedWeekdayWorkout}"
+                        ItemsSource="{Binding WorkoutSelectedWeekday}">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="model:Workout">
+                                <Grid Margin="15,0,0,10">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0" Margin="10,0">
+                                        <VerticalStackLayout VerticalOptions="CenterAndExpand">
+                                            <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="14"/>
+                                            <Label Text="{Binding WorkoutFoci}" FontSize="14"/>
+                                        </VerticalStackLayout>
+                                    </Grid>
+                                    <Grid Grid.Column="1">
+                                        <VerticalStackLayout VerticalOptions="CenterAndExpand">
+                                            <HorizontalStackLayout>
+                                                <Label Text="Sets:" FontSize="14"/>
+                                                <Label Text="{Binding Sets}" FontSize="14" Margin="52,0"/>
+                                            </HorizontalStackLayout>
+                                            <HorizontalStackLayout>
+                                                <Label Text="Repetitions:" FontSize="14"/>
+                                                <Label Text="{Binding Repetitions}" FontSize="14" Margin="5,0"/>
+                                            </HorizontalStackLayout>
+                                        </VerticalStackLayout>
+                                    </Grid>
+                                    <Grid Grid.Column="2">
+                                        <VerticalStackLayout VerticalOptions="CenterAndExpand">
+                                            <HorizontalStackLayout>
+                                                <Label Text="Weight (kg):" FontSize="14"/>
+                                                <Label Text="{Binding Weight}" FontSize="14" Margin="55,0"/>
+                                            </HorizontalStackLayout>
+                                            <HorizontalStackLayout>
+                                                <Label Text="Duration (minutes):" FontSize="14"/>
+                                                <Label Text="{Binding Duration}" FontSize="14" Margin="5,0"/>
+                                            </HorizontalStackLayout>
+                                        </VerticalStackLayout>
+                                    </Grid>
+                                    <VisualStateManager.VisualStateGroups>
+                                        <VisualStateGroupList>
+                                            <VisualStateGroup x:Name="CommonStates">
+                                                <VisualState x:Name="Normal" />
+                                                <VisualState x:Name="Selected">
+                                                    <VisualState.Setters>
+                                                        <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+                                                        <Setter Property="Opacity" Value="0.8"/>
+                                                    </VisualState.Setters>
+                                                </VisualState>
+                                            </VisualStateGroup>
+                                        </VisualStateGroupList>
+                                    </VisualStateManager.VisualStateGroups>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+            </Grid>
+
+
+            <!-- Entires and Picker-->
+            <Grid Grid.Row="1">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Selecting Weekday - Picker and Buttons -->
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="0">
+                        <Picker Title="Weekday"
+                        HorizontalTextAlignment="Center"
+                        ItemsSource="{Binding Weekdays}"
+                        SelectedItem="{Binding SelectedWeekday}"
+                        Margin="50,20,0,0" />
+                    </Grid>
+
+                     <!-- Buttons under Collectionview for the selected day -->
+                    <Grid Grid.Column="1">
+                        <VerticalStackLayout>
+                            <Label Text="Select a workout and an action below" Padding="10,0"/>
+                            <HorizontalStackLayout>
+                            <Button Command="{Binding EditWorkoutInScheduleCommand}" Text="Edit" Margin="0,10,10,35" MinimumWidthRequest="120"/>
+                            <Button Command="{Binding DeleteWorkoutFromScheduleCommand}" Text="Delete" Margin="15,10,10,35" MinimumWidthRequest="120"/>
+                            <Button Command="{Binding DeleteAllWorkoutsCommand}" Text="Delete all" Margin="15,10,10,35" MinimumWidthRequest="120"/>
+                        </HorizontalStackLayout>
+                        </VerticalStackLayout>
+                    </Grid>
+                </Grid>
+
+                <!--Labels and Entries for sets, reps etc-->
+                <Grid Grid.Row="1">
+                    
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <!-- Labels-->
+                    <Grid Grid.Column="0">
+                        <VerticalStackLayout Margin="80,0,0,0">
+                            <Label Text="Weight (kg)" Margin="0,12"/>
+                            <Label Text="Duration (minutes)" Margin="0,12"/>
+                            <Label Text="Sets" Margin="0,12"/>
+                            <Label Text="Repititions" Margin="0,12"/>
+                        </VerticalStackLayout> 
+                     </Grid>
+                                 
+
+                    <!--Entries-->
+                    <Grid Grid.Column="1">
+                        <VerticalStackLayout  Margin="10,0">
+                            <Entry Text="{Binding Weight, Mode=TwoWay}" Margin="50,10,290,0"/>
+                            <Entry Text="{Binding Duration, Mode=TwoWay}" Margin="50,10,290,0"/>
+                            <Entry Text="{Binding Sets, Mode=TwoWay}" Margin="50,10,290,0"/>
+                            <Entry Text="{Binding Repetitions, Mode=TwoWay}" Margin="50,10,290,0"/>
+                        </VerticalStackLayout>
+                    </Grid>
+
+                </Grid>
+            </Grid>
+            
+        </Grid>
+        <!-- Collectionview of Workouts and "Add" button -->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="11*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="10">
+                <Label Text="Workout(s)" FontSize="Subtitle" HorizontalTextAlignment="Center"/>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="5*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+
+                    <!-- CollectionView Workout -->
+                    <CollectionView 
+                        ItemsSource="{Binding Workout}" 
+                        SelectedItems="{Binding SelectedWorkouts}" 
+                        EmptyView="No workouts to display. :(" 
+                        SelectionMode="Multiple">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="model:Workout">
+                                <Grid Margin="-25,0,0,0">
+                                    <VerticalStackLayout Margin="45,0">
+                                        <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="14"/>
+                                        <Label Text="{Binding WorkoutFoci}" FontSize="14"/>
+                                        <Label Text="{Binding Description}" FontAttributes="Italic" FontSize="12"/>
+                                    </VerticalStackLayout>
+                                    <VisualStateManager.VisualStateGroups>
+                                        <VisualStateGroupList>
+                                            <VisualStateGroup x:Name="CommonStates">
+                                                <VisualState x:Name="Normal" />
+                                                <VisualState x:Name="Selected">
+                                                    <VisualState.Setters>
+                                                        <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+                                                        <Setter Property="Opacity" Value="0.8"/>
+                                                    </VisualState.Setters>
+                                                </VisualState>
+                                            </VisualStateGroup>
+                                        </VisualStateGroupList>
+                                    </VisualStateManager.VisualStateGroups>
+                                </Grid>
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+
+                <!-- Add Button-->
+                <Grid Grid.Row="1">
+                    <HorizontalStackLayout>
+                        <Button Command="{Binding AddWorkoutToScheduleCommand}" Text="Add" Margin="80,30,20,30"/>
+                        <Label Text="Adds selected workout to the selected day" FontSize="14" Margin="0,40"/>
+                    </HorizontalStackLayout>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+
+
+</ContentPage>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Workout_Planner.View.WorkoutsPage"
+             xmlns:viewmodel="clr-namespace:Workout_Planner.View_Model"
+             x:DataType="viewmodel:ViewModelWorkouts"
+             xmlns:model="clr-namespace:Workout_Planner.Model"
+             >
+    
+    <Shell.TitleView>
+        <Grid>
+            <Label Text="Workout Page" HorizontalOptions="Center" 
+                   VerticalOptions="Center" TextColor="White" FontSize="Title"/>
+        </Grid>
+    </Shell.TitleView>
+
+    <ContentPage.Resources>
+        <!-- Stylizing Collectionview-->
+        <Style TargetType="ContentView">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <!-- Visuals whilst not selected-->
+                        <VisualState x:Name="Normal" >
+                            <VisualState.Setters>
+                                <Setter TargetName="workoutFrame" Property="Frame.BorderColor"
+                                    Value="LightGrey"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                        <!-- Visuals whilst selected-->
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter TargetName="workoutFrame" Property="Frame.BorderColor"
+                                        Value="Black" />
+                                <Setter TargetName="workoutFrame" Property="Frame.BackgroundColor" 
+                                        Value="{StaticResource Primary}"/>
+                                <Setter TargetName="workoutFrame" Property="Frame.Opacity" Value="0.8"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+
+    <Grid>
+        <!-- Defining window grid -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+
+        
+        <!-- Buttons and label -->
+        <Grid Grid.Column="0">
+
+            <!-- Visual setters-->
+            <Grid.Resources>
+                <Style TargetType="VerticalStackLayout">
+                    <Setter Property="Margin" Value="10,15"/>
+                </Style>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="10"/>
+                </Style>
+            </Grid.Resources>
+            
+            <!-- Buttons and label -->
+            <VerticalStackLayout>
+                <Label Text="Select an action below" Margin="55,15"/>
+                <Button Text="Add"
+                        Command="{Binding AddWorkoutCommand}"/>
+                <Button Text="Edit"
+                        Command="{Binding EditWorkoutCommand}"/>
+                <Button Text="Delete"
+                        Command="{Binding DeleteWorkoutCommand}"/>
+                <Button Text="Delete All"
+                        Command="{Binding DeleteAllWorkoutCommand}"/>
+                <Image Source="cat_workout.png" Aspect="AspectFit"/>
+            </VerticalStackLayout>
+        </Grid>
+
+        <!-- Collectionview of workouts and Entry for adding and editing workouts -->
+        <Grid Grid.Column="1">
+           
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Name and Description of workout-->
+                <Grid Grid.Column="0">
+                    <VerticalStackLayout Margin="70,20">
+                        <Entry Text="{Binding Name}" 
+                               HorizontalTextAlignment="Start"
+                               Margin="0,30"
+                               />
+                        <Editor Text="{Binding Description}"
+                                AutoSize="TextChanges"
+                                MaximumHeightRequest="120"
+                                />
+                               
+                    </VerticalStackLayout>
+                </Grid>
+
+                <!-- Checkboxes for type -->
+                <Grid Grid.Column="1" Margin="30,30">
+
+                    <Grid.Resources>
+                        <Style TargetType="Label">
+                            <Setter Property="Margin" Value="10,5"/>
+                        </Style>
+                        <Style TargetType="HorizontalStackLayout">
+                            <Setter Property="Margin" Value="50,5"/>
+                        </Style>
+                    </Grid.Resources>
+                    
+                    <VerticalStackLayout>
+                        <HorizontalStackLayout>
+                            <CheckBox IsChecked="{Binding Strength, Mode=TwoWay}"/>
+                            <Label Text="Strength"/>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout>
+                            <CheckBox IsChecked="{Binding Cardio, Mode=TwoWay}"/>
+                            <Label Text="Cardio"/>
+                        </HorizontalStackLayout>
+                        
+                        <HorizontalStackLayout>
+                            <CheckBox IsChecked="{Binding Flexibility, Mode=TwoWay}"/>
+                            <Label Text="Flexibility"/>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout>
+                            <CheckBox IsChecked="{Binding Balance, Mode=TwoWay}"/>
+                            <Label Text="Balance"/>
+                        </HorizontalStackLayout>
+
+                        <HorizontalStackLayout>
+                            <CheckBox IsChecked="{Binding Coordination, Mode=TwoWay}"/>
+                            <Label Text="Coordination"/>
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                    
+                </Grid>
+                
+            </Grid>
+            
+            <!-- Workouts -->
+            <Grid Grid.Row="1">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="6*"/>
+                </Grid.RowDefinitions>
+
+
+                <Grid Grid.Row="0">
+                    <Label Margin="0,0,40,0" Text="Workout(s)"  HorizontalTextAlignment="Center" FontSize="Subtitle"/>
+                </Grid>
+
+
+              
+                <!-- Displaying all Workouts -->
+                <Grid Grid.Row="1" Margin="30,0,30,0">
+                    <CollectionView
+                            Margin="100,0,160,0"
+                            SelectionMode="Single"
+                            ItemsSource="{Binding Workout}"
+                            SelectedItem="{Binding SelectedWorkout}"
+                            EmptyView="No workouts to display :("
+                            >
+                            <CollectionView.ItemTemplate>
+                            <DataTemplate x:DataType="model:Workout">
+                                <Grid Margin="0,10,0,0">
+                                    <VerticalStackLayout Margin="10,0,0,0">
+                                        <Label
+                                        Text="{Binding Name}"
+                                        FontAttributes="Bold"
+                                        FontSize="14"/>
+                                        <Label
+                                        Text="{Binding WorkoutFoci}"
+                                        FontSize="14"/>
+                                        <Label
+                                        Text="{Binding Description}"
+                                        FontAttributes="Italic"
+                                        FontSize="12"/>
+
+                                    </VerticalStackLayout>
+                                    <VisualStateManager.VisualStateGroups>
+                                        <VisualStateGroupList>
+                                            <VisualStateGroup x:Name="CommonStates">
+                                                <VisualState x:Name="Normal" />
+                                                <VisualState x:Name="Selected">
+                                                    <VisualState.Setters>
+                                                        <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+                                                        <Setter Property="Opacity" Value="0.8"/>
+                                                    </VisualState.Setters>
+                                                </VisualState>
+                                            </VisualStateGroup>
+                                        </VisualStateGroupList>
+                                    </VisualStateManager.VisualStateGroups>
+                                </Grid>
+                                
+                            </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </Grid>
+
+            </Grid>
+            
+        </Grid>
+
+
+    </Grid>
+</ContentPage>

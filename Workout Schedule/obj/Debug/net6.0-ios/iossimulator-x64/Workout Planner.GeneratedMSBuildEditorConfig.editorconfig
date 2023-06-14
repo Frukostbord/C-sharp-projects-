@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Workout_Planner
+build_property.ProjectDir = C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 7\Module 7B\Workout Schedule\
+
+[C:/Users/Combi/Desktop/Studier/MU DA205E C\# 2 programmering/Module 7/Module 7B/Workout Schedule/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Workout_Planner.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Combi/Desktop/Studier/MU DA205E C\# 2 programmering/Module 7/Module 7B/Workout Schedule/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Workout_Planner.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Combi/Desktop/Studier/MU DA205E C\# 2 programmering/Module 7/Module 7B/Workout Schedule/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Workout_Planner.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Combi/Desktop/Studier/MU DA205E C\# 2 programmering/Module 7/Module 7B/Workout Schedule/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Workout_Planner.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Combi/Desktop/Studier/MU DA205E C\# 2 programmering/Module 7/Module 7B/Workout Schedule/View/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Workout_Planner.View.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Users/Combi/Desktop/Studier/MU DA205E C\# 2 programmering/Module 7/Module 7B/Workout Schedule/View/WorkoutSchedulePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Workout_Planner.View.WorkoutSchedulePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\WorkoutSchedulePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\WorkoutSchedulePage.xaml

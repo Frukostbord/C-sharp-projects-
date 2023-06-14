@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Duplicate_finder.MainPage"
+             xmlns:viewmodel="clr-namespace:Duplicate_finder.ViewModel"
+             x:DataType="viewmodel:ViewModelBase"
+             xmlns:model="clr-namespace:Duplicate_finder.Model"             
+             >
+    
+    <!--Centers and sets title´s text-->
+    <Shell.TitleView>
+        <Grid>
+            <Label Text="Duplicate Finder - Andreas Hägglund" HorizontalOptions="Center" 
+                   VerticalOptions="Center" TextColor="White" FontSize="Title"/>
+        </Grid>
+    </Shell.TitleView>
+
+    <!--Sets style for the collectionview-->
+    
+    <ContentPage.Resources>
+        <Style TargetType="ContentView">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <!-- Visuals whilst not selected-->
+                        <VisualState x:Name="Normal" >
+                            <VisualState.Setters>
+                                <Setter TargetName="cviewFrame" Property="Frame.BorderColor"
+                                    Value="LightGrey"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                        <!-- Visuals whilst selected-->
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter TargetName="cviewFrame" Property="Frame.BorderColor"
+                                        Value="Black" />
+                                <Setter TargetName="cviewFrame" Property="Frame.BackgroundColor" 
+                                        Value="Cyan"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+
+
+    <Grid>
+        <!--UI Formatting in grids-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid Grid.Row="0">
+
+
+            <!--Buttons and labels formatting-->
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="MaximumWidthRequest" Value="175"/>
+                    <Setter Property="MinimumWidthRequest" Value="175"/>
+                    <Setter Property="VisualStateManager.VisualStateGroups">
+                        <VisualStateGroupList>
+                            <VisualStateGroup x:Name="CommonStates">
+                                <!--When button is pressed-->
+                                <VisualState x:Name="Pressed">
+                                    <VisualState.Setters>
+                                        <Setter Property="Background" Value="Grey"/>
+                                        <Setter Property="Scale" Value="0.9"/>
+                                    </VisualState.Setters>
+                                </VisualState>
+                                <!--When button is normal-->
+                                <VisualState x:Name="Normal">
+                                    <VisualState.Setters>
+                                        <Setter Property="Background" Value="#229FA8"/>
+                                        <Setter Property="Scale" Value="1"/>
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateGroupList>
+                    </Setter>
+                </Style>
+                <!--Label formatting-->
+                <Style TargetType="Label">
+                    <Setter Property="Margin" Value="0,15,0,0"/>
+                    <Setter Property="MaximumWidthRequest" Value="100"/>
+                    <Setter Property="MinimumWidthRequest" Value="100"/>
+                    <Setter Property="MaximumHeightRequest" Value="20"/>
+                </Style>
+            </Grid.Resources>
+
+            <!--Buttons, checkboxes and labels displaying file selected and selecting search criteria-->
+            <VerticalStackLayout Margin="15,10">
+                
+
+                <!--Button for selecting file and selected file info-->
+                <HorizontalStackLayout>
+                    <Button Text="Select Path" 
+                            Command="{Binding SelectPathCommand}"
+                            />
+                    <Label x:Name="lblSelectedFileName"
+                           MinimumWidthRequest="1000" 
+                           Margin="15"
+                           Text="{Binding SelectedPath}"/>
+                </HorizontalStackLayout>
+                
+                <!--Button for searching files depending on criteria-->
+                <HorizontalStackLayout>
+                    <Button Text="Search"
+                            Command="{Binding SearchFileCommand}"/>
+                    <!--Lots of checkboxes-->
+                    <CheckBox 
+                        IsChecked="{Binding DateCreated}"
+                        x:Name="cboxDateCreated"
+                        Margin="10,0,0,0"/>
+                    <Label Text="Date created"/>
+                    <CheckBox 
+                        x:Name="cboxDateModified"
+                        IsChecked="{Binding DateModified}"/>
+                    <Label Text="Date modified"/>
+                    <CheckBox 
+                        x:Name="cboxSize"
+                        IsChecked="{Binding Size}"/>
+                    <Label Text="Size (bytes)"/>
+                    <CheckBox 
+                        x:Name="cboxType"
+                        IsChecked="{Binding Type}"/>
+                    <Label Text="File type"/>
+                    <CheckBox 
+                        x:Name="cboxSubfolders"
+                        IsChecked="{Binding SubFolders}"/>
+                    <Label Text="Subfolders"/>
+                </HorizontalStackLayout>
+
+                <!--Button for deleting selected files-->
+                <HorizontalStackLayout>
+                    <Button x:Name="btnDelete" Command="{Binding DeleteFilesCommand}" Text="Delete"/>
+                </HorizontalStackLayout>
+                
+            </VerticalStackLayout>
+        </Grid>
+
+        <!--Collection view of duplicate items-->
+        <Grid Grid.Row="1">
+
+            <CollectionView
+                SelectionMode="Multiple"
+                Margin="25,10,25,25"
+                EmptyView="Select a file and search for duplicates"
+                ItemsSource="{Binding Files}"
+                SelectedItems ="{Binding FilesToDelete}" 
+                >
+                <CollectionView.ItemTemplate>
+                    <!--Visual formatting of items in the collectionview-->
+                    <DataTemplate x:DataType="model:FileInformation">
+                        <ContentView>
+                            <Grid Padding="-15,10,0,0">
+                                <Frame CornerRadius="4"
+                                        x:Name="cviewFrame"
+                                    >
+                                    <Label  Text="{Binding }"
+                                            FontSize="12"
+                                            FontAttributes="Italic"
+                                            Padding="5"/>
+                                </Frame>
+                            </Grid>
+                        </ContentView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+        
+    </Grid>
+    
+
+</ContentPage>
