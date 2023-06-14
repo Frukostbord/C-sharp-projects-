@@ -1,0 +1,12 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\obj\Debug\ToDo Reminder.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\obj\Debug\ToDo Reminder.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\obj\Debug\ToDo_Reminder.FormMain.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\obj\Debug\ToDo_Reminder.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\obj\Debug\ToDo Reminder.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\obj\Debug\ToDo Reminder.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\bin\Debug\ToDo Reminder.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\bin\Debug\ToDo Reminder.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\bin\Debug\ToDo Reminder.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\obj\Debug\ToDo Reminder.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\obj\Debug\ToDo Reminder.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 6\Assignment\ToDo Reminder\ToDo Reminder\obj\Debug\ToDo_Reminder.AboutBox.resources
