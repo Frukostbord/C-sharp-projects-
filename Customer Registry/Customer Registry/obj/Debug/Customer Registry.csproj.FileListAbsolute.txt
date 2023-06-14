@@ -1,0 +1,12 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\bin\Debug\Customer Registry.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\bin\Debug\Customer Registry.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\bin\Debug\Customer Registry.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\obj\Debug\Customer Registry.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\obj\Debug\Customer Registry.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\obj\Debug\Customer_Registry.FormMain.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\obj\Debug\Customer_Registry.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\obj\Debug\Customer Registry.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\obj\Debug\Customer Registry.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\obj\Debug\Customer Registry.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\obj\Debug\Customer Registry.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 5\Assignment\Customer Registry\Customer Registry\obj\Debug\Customer_Registry.FormContact.resources
