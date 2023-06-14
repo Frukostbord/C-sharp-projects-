@@ -1,0 +1,15 @@
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\bin\Debug\Apu Animal Park 4.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\bin\Debug\Apu Animal Park 4.exe
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\bin\Debug\Apu Animal Park 4.pdb
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\obj\Debug\Apu Animal Park 4.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\obj\Debug\Apu Animal Park 4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\obj\Debug\Apu_Animal_Park_4.FormFoodItems.resources
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\obj\Debug\Apu_Animal_Park_4.FormMain.resources
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\obj\Debug\Apu_Animal_Park_4.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\obj\Debug\Apu Animal Park 4.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\obj\Debug\Apu Animal Park 4.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\obj\Debug\Apu Animal Park 4.csproj.CopyComplete
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\obj\Debug\Apu Animal Park 4.exe
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 4\Apu Animal Park 4\obj\Debug\Apu Animal Park 4.pdb

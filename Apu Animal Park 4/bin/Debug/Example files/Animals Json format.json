@@ -1,0 +1,42 @@
+[
+  {
+    "Breed": "Golden Retreiver",
+    "NrTeeth": 31,
+    "Age": 1,
+    "Name": "Barkie",
+    "Weight": 9.0,
+    "ID": "d2ed35d0-eed8-4dfb-b5b0-dfd5d9781cad",
+    "Gender": 0,
+    "AnimalDiet": 2
+  },
+  {
+    "VenomEffect": "Blood coagulation",
+    "Eggsize": 4,
+    "Age": 27,
+    "Name": "Sir Väs",
+    "Weight": 5.0,
+    "ID": "5a037562-a53f-463e-9a2c-fb8acc17f599",
+    "Gender": 0,
+    "AnimalDiet": 0
+  },
+  {
+    "NrStripes": 2,
+    "PrefDepth": 30,
+    "Age": 1,
+    "Name": "Nemo",
+    "Weight": 0.2,
+    "ID": "b8fd62f5-336c-4ec6-9f13-14e8282292c6",
+    "Gender": 2,
+    "AnimalDiet": 0
+  },
+  {
+    "PrefFlowers": "All of them",
+    "NrOfLimbs": 6,
+    "Age": 1,
+    "Name": "Barry B. Benson",
+    "Weight": 0.004,
+    "ID": "afa54fba-7c11-4a8b-9b57-70447ef66bc9",
+    "Gender": 0,
+    "AnimalDiet": 1
+  }
+]

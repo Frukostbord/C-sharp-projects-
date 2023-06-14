@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFoodItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FoodItem>
+    <Name>Apple pie</Name>
+  </FoodItem>
+  <FoodItem>
+    <Name>Sphagetti and meatballs</Name>
+  </FoodItem>
+  <FoodItem>
+    <Name>Lemon pie</Name>
+  </FoodItem>
+</ArrayOfFoodItem>

@@ -1,0 +1,59 @@
+Apu_Animal_Park
+1,013
+4
+3
+Dog
+Golden Retreiver
+String
+31
+Int32
+1
+Barkie
+9
+Male
+d2ed35d0-eed8-4dfb-b5b0-dfd5d9781cad
+Snake
+Blood coagulation
+String
+4
+Int32
+27
+Sir Väs
+5
+Male
+5a037562-a53f-463e-9a2c-fb8acc17f599
+Clownfish
+2
+Int32
+30
+Int32
+1
+Nemo
+0,2
+Unknown
+b8fd62f5-336c-4ec6-9f13-14e8282292c6
+Bee
+All of them
+String
+6
+Int32
+1
+Barry B. Benson
+0,004
+Male
+afa54fba-7c11-4a8b-9b57-70447ef66bc9
+Apple pie
+1
+Apples
+1
+b8fd62f5-336c-4ec6-9f13-14e8282292c6
+Sphagetti and meatballs
+1
+Meatballs
+1
+d2ed35d0-eed8-4dfb-b5b0-dfd5d9781cad
+Lemon pie
+1
+Lemons
+1
+afa54fba-7c11-4a8b-9b57-70447ef66bc9
