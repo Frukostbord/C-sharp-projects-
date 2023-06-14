@@ -1,0 +1,24 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\bin\Debug\Practice.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\bin\Debug\Practice.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\bin\Debug\Practice.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\obj\Debug\Household Chores.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\obj\Debug\Household Chores.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\obj\Debug\Practice.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\obj\Debug\Household Chores.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\obj\Debug\Household Chores.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\obj\Debug\Practice.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\obj\Debug\Practice.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\obj\Debug\HouseholdChores.FormMain.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Practice\Practice\obj\Debug\HouseholdChores.FormFamilyMembersChores.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\bin\Debug\Practice.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\bin\Debug\Practice.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\bin\Debug\Practice.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\obj\Debug\Household Chores.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\obj\Debug\Household Chores.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\obj\Debug\HouseholdChores.FormMain.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\obj\Debug\Practice.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\obj\Debug\Household Chores.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\obj\Debug\Household Chores.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\obj\Debug\Practice.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\obj\Debug\Practice.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 7\Part 2\Household Chores\Household Chores\obj\Debug\HouseholdChores.FormChores.resources
