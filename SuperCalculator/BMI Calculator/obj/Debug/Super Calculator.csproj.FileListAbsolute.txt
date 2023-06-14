@@ -1,0 +1,22 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\Super Calculator.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\Super Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\Super_Calculator.MainForm.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\Super Calculator.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\Super Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\Super_Calculator.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\bin\Debug\Super_Calculator.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\bin\Debug\Super_Calculator.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\bin\Debug\Super_Calculator.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\Super_Calculator.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\Super_Calculator.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\bin\Debug\Super_Calculator.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\bin\Debug\Super_Calculator.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\bin\Debug\Super_Calculator.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\obj\Debug\Super Calculator.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\obj\Debug\Super Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\obj\Debug\Super_Calculator.MainForm.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\obj\Debug\Super_Calculator.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\obj\Debug\Super Calculator.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\obj\Debug\Super Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\obj\Debug\Super_Calculator.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\SuperCalculator\BMI Calculator\obj\Debug\Super_Calculator.pdb

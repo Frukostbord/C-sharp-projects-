@@ -1,0 +1,11 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\bin\Debug\BMI Calculator.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\BMI_Calculator.MainForm.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\BMI_Calculator.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 3\Exercise\BMI Calculator\BMI Calculator\obj\Debug\BMI Calculator.pdb
