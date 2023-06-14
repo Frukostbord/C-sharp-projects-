@@ -1,0 +1,21 @@
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\bin\Debug\net6.0-windows\The Control Tower - Delegates and Events.exe
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\bin\Debug\net6.0-windows\The Control Tower - Delegates and Events.deps.json
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\bin\Debug\net6.0-windows\The Control Tower - Delegates and Events.runtimeconfig.json
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\bin\Debug\net6.0-windows\The Control Tower - Delegates and Events.dll
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\bin\Debug\net6.0-windows\The Control Tower - Delegates and Events.pdb
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events_MarkupCompile.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events_MarkupCompile.lref
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events.g.resources
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events.AssemblyInfoInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events.AssemblyInfo.cs
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events.dll
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\refint\The Control Tower - Delegates and Events.dll
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events.pdb
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\The Control Tower - Delegates and Events.genruntimeconfig.cache
+C:\Users\Combi\Desktop\Studier\MU DA205E C# 2 programmering\Module 5\The Control Tower - Delegates and Events\obj\Debug\net6.0-windows\ref\The Control Tower - Delegates and Events.dll
