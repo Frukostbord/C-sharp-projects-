@@ -1,0 +1,15 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\bin\Debug\net6.0\Module 1 exercises.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\bin\Debug\net6.0\Module 1 exercises.deps.json
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\bin\Debug\net6.0\Module 1 exercises.runtimeconfig.json
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\bin\Debug\net6.0\Module 1 exercises.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\bin\Debug\net6.0\Module 1 exercises.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\obj\Debug\net6.0\Module 1 exercises.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\obj\Debug\net6.0\Module 1 exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\obj\Debug\net6.0\Module 1 exercises.AssemblyInfoInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\obj\Debug\net6.0\Module 1 exercises.AssemblyInfo.cs
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\obj\Debug\net6.0\Module 1 exercises.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\obj\Debug\net6.0\Module 1 exercises.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\obj\Debug\net6.0\refint\Module 1 exercises.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\obj\Debug\net6.0\Module 1 exercises.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\obj\Debug\net6.0\Module 1 exercises.genruntimeconfig.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1 exercises\Module 1 exercises\Module 1 exercises\obj\Debug\net6.0\ref\Module 1 exercises.dll
