@@ -1,0 +1,15 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\bin\Debug\net6.0\Module 1 Assignment 1 Grade A+B.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\bin\Debug\net6.0\Module 1 Assignment 1 Grade A+B.deps.json
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\bin\Debug\net6.0\Module 1 Assignment 1 Grade A+B.runtimeconfig.json
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\bin\Debug\net6.0\Module 1 Assignment 1 Grade A+B.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\bin\Debug\net6.0\Module 1 Assignment 1 Grade A+B.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\obj\Debug\net6.0\Module 1 Assignment 1 Grade A+B.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\obj\Debug\net6.0\Module 1 Assignment 1 Grade A+B.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\obj\Debug\net6.0\Module 1 Assignment 1 Grade A+B.AssemblyInfoInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\obj\Debug\net6.0\Module 1 Assignment 1 Grade A+B.AssemblyInfo.cs
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\obj\Debug\net6.0\Module 1 Assignment 1 Grade A+B.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\obj\Debug\net6.0\Module 1 Assignment 1 Grade A+B.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\obj\Debug\net6.0\refint\Module 1 Assignment 1 Grade A+B.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\obj\Debug\net6.0\Module 1 Assignment 1 Grade A+B.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\obj\Debug\net6.0\Module 1 Assignment 1 Grade A+B.genruntimeconfig.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 1\Assignemnt 1\Module 1 Assignment 1\Module 1 Assignment 1 Grade A+B\obj\Debug\net6.0\ref\Module 1 Assignment 1 Grade A+B.dll
