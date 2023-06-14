@@ -1,0 +1,15 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\bin\Debug\net6.0\Exercise2b.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\bin\Debug\net6.0\Exercise2b.deps.json
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\bin\Debug\net6.0\Exercise2b.runtimeconfig.json
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\bin\Debug\net6.0\Exercise2b.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\bin\Debug\net6.0\Exercise2b.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\obj\Debug\net6.0\Exercise2b.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\obj\Debug\net6.0\Exercise2b.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\obj\Debug\net6.0\Exercise2b.AssemblyInfoInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\obj\Debug\net6.0\Exercise2b.AssemblyInfo.cs
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\obj\Debug\net6.0\Exercise2b.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\obj\Debug\net6.0\Exercise2b.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\obj\Debug\net6.0\refint\Exercise2b.dll
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\obj\Debug\net6.0\Exercise2b.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\obj\Debug\net6.0\Exercise2b.genruntimeconfig.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 2\Module 2 exercises\Exercise2b\Exercise2b\Exercise2b\obj\Debug\net6.0\ref\Exercise2b.dll
