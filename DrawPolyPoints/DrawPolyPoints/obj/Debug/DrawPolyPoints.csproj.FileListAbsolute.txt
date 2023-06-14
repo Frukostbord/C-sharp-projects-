@@ -1,0 +1,11 @@
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\obj\Debug\DrawPolyPoints.csproj.AssemblyReference.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\obj\Debug\DrawPolyPoints.csproj.SuggestedBindingRedirects.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\obj\Debug\DrawPolyPoints.mainForm.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\obj\Debug\DrawPolyPoints.Properties.Resources.resources
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\obj\Debug\DrawPolyPoints.csproj.GenerateResource.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\obj\Debug\DrawPolyPoints.csproj.CoreCompileInputs.cache
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\bin\Debug\DrawPolyPoints.exe.config
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\bin\Debug\DrawPolyPoints.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\bin\Debug\DrawPolyPoints.pdb
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\obj\Debug\DrawPolyPoints.exe
+C:\Users\Combi\Desktop\Studier\MU DA204E C# programmering\Module 4\Exercises\DrawPolyPoints\DrawPolyPoints\obj\Debug\DrawPolyPoints.pdb
